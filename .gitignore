@@ -1,0 +1,44 @@
+# Venture Ville .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*-backup.*
+
+# Build artifacts
+/build/
+/dist/
+/output/
+
+# Private notes
+/private/
+*-private.*
+*_private.*
+
+# Large assets (use Git LFS if needed)
+*.psd
+*.ai
+*.sketch
+
+# Generated files
+/generated/
+
+# Playtesting data (sensitive)
+playtesting/private/
+
+# Personal work-in-progress
+wip/
+scratch/
